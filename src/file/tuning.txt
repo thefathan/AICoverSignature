@@ -1,0 +1,37 @@
+RF
+
+param_grid = {
+    'n_estimators': [100, 200, 300],  # Number of trees in the forest
+    'max_depth': [None, 5, 10],  # Maximum depth of the tree
+    'min_samples_split': [2, 5, 10],  # Minimum number of samples required to split an internal node
+    'min_samples_leaf': [1, 2, 4],  # Minimum number of samples required to be at a leaf node
+    'max_features': ['auto', 'sqrt', 'log2']  # Number of features to consider when looking for the best split
+} Accuracy: 0.7666666666666667
+
+
+param_grid = {
+    'n_estimators': [200, 400, 600],  # Number of trees in the forest
+    'max_depth': [None, 10, 20],  # Maximum depth of the tree
+    'min_samples_split': [4, 10, 20],  # Minimum number of samples required to split an internal node
+    'min_samples_leaf': [2, 4, 8],  # Minimum number of samples required to be at a leaf node
+    'max_features': ['auto', 'sqrt', 'log2']  # Number of features to consider when looking for the best split
+} Accuracy: 0.7583333333333333
+
+param_grid = {
+    'n_estimators': [50, 100, 150],  # Number of trees in the forest
+    'max_depth': [None, 5, 10],  # Maximum depth of the tree
+    'min_samples_split': [4, 10, 20],  # Minimum number of samples required to split an internal node
+    'min_samples_leaf': [2, 4, 8],  # Minimum number of samples required to be at a leaf node
+    'max_features': ['auto', 'sqrt', 'log2']  # Number of features to consider when looking for the best split
+} Accuracy: 0.725
+
+param_grid = {
+    'n_estimators': [100, 200, 300],  # Number of trees in the forest
+    'max_depth': [None, 10, 20],  # Maximum depth of the tree
+    'min_samples_split': [2, 5, 10],  # Minimum number of samples required to split an internal node
+    'min_samples_leaf': [1, 2, 4],  # Minimum number of samples required to be at a leaf node
+    'max_features': ['auto', 'sqrt', 'log2']  # Number of features to consider when looking for the best split
+} Accuracy: 0.9
+
+
+CLF
